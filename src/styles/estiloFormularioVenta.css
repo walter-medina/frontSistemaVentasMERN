@@ -1,0 +1,78 @@
+.formularioCrearVentas{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;    
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid #607ba3;    
+    box-shadow: 2px 2px black;  
+    font-family: 'calibri';  
+    background-color: #F3F6F9(226, 221, 226);
+     
+}
+.formularioCrearVentas > form{
+    padding: 15px;    
+}
+
+
+.contenedorTituloRegistroVenta{
+    text-align: center;
+    background-color: #255AAA;
+    color: white;   
+    margin-bottom: 5px;
+    height: 70px;
+    
+
+}
+.labelCampos{
+    font-size:18px;
+}
+.camposRegistroVenta{
+    width: 95%;
+    padding: 10px;   
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 2.5px solid #607ba3;
+    
+}
+
+
+.contBotonGuardarVenta {
+       
+    color: white;   
+    align-content: rigth;
+    float: right;
+
+}
+.botonCancelar{
+    margin-right: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    background-color: darkgrey;
+}
+.botonCancelar:hover{
+    background-color:#c9192b;
+    color: white;
+
+
+}
+.botonGuardar{
+    
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    background-color:#105dd0;
+    color: white;
+}
+
+.botonGuardar:hover{
+    background-color:#0b4419;
+    color: white;
+
+}
+
+
+    

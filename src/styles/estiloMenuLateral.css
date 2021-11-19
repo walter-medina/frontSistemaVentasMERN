@@ -1,0 +1,65 @@
+.menuLateral{
+  width: 380px;
+  height: 120vh;
+  
+  background-color:#255AAA;
+ 
+  
+}
+.mainContainer{
+display: flex;
+
+
+
+ 
+}
+.mainContainer>main{    
+  display: flex;
+  width: 100%;
+ 
+ 
+  flex-direction: column;
+}
+
+.navMenuLateral{
+display: flex;  
+border-bottom:  1px solid rgb(17, 15, 15);
+color: white;
+padding-bottom: 3%;
+margin-bottom: 5%; 
+padding-left: 5%;  
+
+}
+.navMenuLateral> h1{
+font-size: 25px;
+}
+
+.menuLateral >ul,li{
+  list-style: none;
+  padding:0px; 
+  
+}
+.itemMenuLateral:hover{
+background-color:#103655;
+
+}
+.itemMenuLateral:hover >h4{
+font: bold;
+color: white;
+}
+
+.itemMenuLateral{
+
+display: flex;  
+color: rgb(218, 206, 206);   
+align-items: center;
+padding-left: 5%; 
+text-decoration: none; 
+
+}
+.itemMenuLateral >img{
+margin-right: 2%;
+}
+
+
+

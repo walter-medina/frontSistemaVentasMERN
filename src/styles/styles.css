@@ -1,0 +1,56 @@
+/*aqui va el codigo css del proyecto*/
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.mainContainer > main {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+nav{
+  background-color: rgb(26, 38, 123);
+  height: 100px;
+
+}
+.mainContainer > footer {
+  background-color: rgb(143, 29, 29);
+  height: 60px;
+  padding: 10px;
+}
+section{
+  background-color: bisque;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.mainContainer > main {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.mainContainer > footer {
+  background-color: rgb(143, 29, 29);
+  height: 60px;
+  padding: 10px;
+}
+
+.encabezado_tabla{
+  background: #255AAA;
+}
+
+.table {
+  margin: top 50px;
+  caption-side: bottom;
+  margin-left: auto;
+  margin-right: auto;
+}
+

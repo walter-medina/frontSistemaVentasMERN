@@ -1,0 +1,20 @@
+
+footer{
+    background-color:#05243E;
+    color: white;
+    width: 100%;
+    padding: 15px;
+   
+   
+    position: fixed;
+    bottom: 0;
+    
+    display:flex;   
+    flex-direction: column;    
+   text-align: center;
+   align-items: center;
+}
+
+footer>h1,h5{
+    margin: 0;
+}

@@ -1,0 +1,36 @@
+.contenedorForm{
+    padding-top: 50px;
+    padding-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.formulario{
+    display: table;
+    justify-content: space-between;
+    padding-right: 150px;
+}
+form>h1{
+    display: flex;
+    justify-content: center;
+}
+
+form>span{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+label{
+    display: inline-block;
+}
+.datosLlenar{
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+}
+.row>label{
+    margin-right: 30px;
+}
